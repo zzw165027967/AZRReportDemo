@@ -1,0 +1,216 @@
+/* Copyright 2008 Google Inc. All Rights Reserved. */
+
+.google-visualization-table-table
+{
+    border: 1px;
+    border-style: solid;
+    border-color: #B0A394;
+    border-spacing: 0;
+    border-collapse: collapse;
+    float: left;
+    font-family: 'Signika Negative', Arial;
+}
+
+.google-visualization-table-table tr
+{
+    font-size: 12px;
+    font-weight: lighter;
+    color: #2E2E2E;
+    height: 30px;
+}
+
+.google-visualization-table-table td
+{
+    border: 0px;
+    border-left: 1px;
+    border-left-style: solid;
+    border-left-color: #D6D5D6;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.google-visualization-table-table td:first-child
+{
+    border-left: 0px;
+}
+
+.google-visualization-table-table tbody
+{
+    background: transparent;
+    border: 0px;
+}
+
+/*
+.google-visualization-table-table * {
+  margin: 0;
+  vertical-align: middle;
+  padding: 2px;
+}*/
+
+.google-visualization-table-tr-head,
+.google-visualization-table-tr-head-nonstrict 
+{
+    border-top: 1px #B0A394 solid;
+	border-right: 1px #B0A394 solid;
+}
+
+.google-visualization-table-tr-head td,
+.google-visualization-table-tr-head-nonstrict
+{
+    border-top: 1px #B0A394 solid;
+	border-left: 1px #D6D5D6 solid;
+	
+    color: #666C72;
+    background-color: #CDDBC5;
+    text-align: left;
+    font-size: 12px;
+    height: 25px;
+    background-image: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+}
+
+.google-visualization-table-tr-head td span {
+    color: #666C72;
+    background-color: #CDDBC5;
+    text-align: left;
+    font-size: 12px;
+    height: 40px;
+    background-image: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+}
+
+.google-visualization-table-tr-even, .google-visualization-table-tr-even td, .google-visualization-table-tr-even-nonstrict
+{
+    background-color: #EFF3EC;
+}
+
+.google-visualization-table-tr-odd, .google-visualization-table-tr-odd td, .google-visualization-table-tr-odd-nonstrict
+{
+    background-color: white;
+}
+
+.google-visualization-table-tr-sel, .google-visualization-table-tr-sel td, .google-visualization-table-tr-sel-nonstrict
+{
+    background-color: #7BADC2;
+}
+
+.google-visualization-table-tr-over, .google-visualization-table-tr-over td, .google-visualization-table-tr-over-nonstrict
+{
+    background-color: #7BADC2;
+}
+
+.google-visualization-table-sorthdr
+.google-visualization-table-th .google-visualization-table-sorthdr
+{
+    cursor: pointer;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 3px;
+    border-left-style: solid;
+    border-left-color: #D6D5D6;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.google-visualization-table-sortind
+{
+    color: #ccc;
+    font-size: 9px;
+    padding-left: 6px; /* do not chage - see table.js */
+}
+
+.google-visualization-table-th
+{
+    /* border: 1px solid #eee;   padding: 6px;*/
+}
+
+.google-visualization-table-th-webkit td, .google-visualization-table-th-webkit-nonstrict
+{
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 6px;
+}
+
+.google-visualization-table-td-freeze-rightmost
+{
+    border-right-width: 4px;
+}
+
+.google-visualization-table-td
+{
+    /* border: 1px solid #eee;   padding-right: 3px;   padding-left: 3px;   padding-top: 2px;   padding-bottom: 2px;*/
+}
+
+.google-visualization-table-td-bool
+{
+    text-align: center;
+    font-family: inherit;
+}
+
+.google-visualization-table-td-center
+{
+    text-align: center;
+}
+
+.google-visualization-table-td-number
+{
+    text-align: right;
+    white-space: nowrap;
+}
+
+.google-visualization-table-seq
+{
+    text-align: right;
+    color: #666;
+}
+
+.google-visualization-table-div-page
+{
+    margin: 2px 0 0 0;
+    padding: 0;
+}
+
+.google-visualization-controls-categoryfilter .goog-menu-button-inner-box {
+    padding: 0.2em 0.8em;
+}
+
+/* Range filter */
+.google-visualization-controls-rangefilter {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+.google-visualization-controls-rangefilter .google-visualization-controls-rangefilter-thumblabel {
+    color: #fff;
+    border: 0px;
+    padding: 0.2em 0.6em;
+}
+
+.google-visualization-controls-rangefilter .google-visualization-controls-slider-thumb {
+    background-color: #666;
+    border: 0px;
+}
+
+.google-visualization-controls-rangefilter .google-visualization-controls-slider-handle {
+    background-color: #666C72;
+    border: 0px;
+}
+
+.google-visualization-controls-rangefilter .google-visualization-controls-slider-horizontal {
+    background-color: #D6D5D6;
+    border: 0px;
+}
+
+/* controls */
+.goog-menu-button {
+    color: #fff;
+}
+
+.goog-inline-block {
+    background-color: #455259;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>report10</title>
+		<meta name="author" content="Jackey.Zhuang" />
+		<!-- Date: 2013-05-06 -->
+		<!-- google font -->
+    	<link href="https://fonts.googleapis.com/css?family=Signika+Negative:300,400,600,700" rel="stylesheet" type="text/css"/>
+    	<!-- google chart -->
+    	<link href="https://www.google.com/uds/api/visualization/1.1/dd278b0853264c2fd92092aa8f34b5ad/controls.css" type="text/css" rel="stylesheet" />
+    	<link href="https://ajax.googleapis.com/ajax/static/modules/gviz/1.1/core/tooltip.css" rel="stylesheet" type="text/css" />
+    	<link href="https://ajax.googleapis.com/ajax/static/modules/gviz/1.1/table/table.css" rel="stylesheet" type="text/css" />
+    	<!-- google-->
+    	<link href="../css/GoogleTable.css" rel="stylesheet" type="text/css" />
+	    <link href="../css/GoogleDropdownlist.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+	<div style="width:100%;">
+		Start <input/> tot en met <input/> Periode<select id="period_selector">
+							<option value="3" selected="selected">Maand</option>
+							<option value="2">4 Weken</option>
+							<option value="1">(ISO) week</option>
+						</select>
+		<button type="submit">
+						Zoke
+					</button>
+	</div>
+	
+	<div id = "dashboard" style="width: 100%; height: 100%; overflow: auto; position: relative;">
+		<div style="width:100%;">
+			<div id="div1"></div>
+			<div id="div2"></div>
+			<div id="div3"></div>
+		</div>
+		<div style="width:100%;">
+			<div id="divfilter1"></div>
+			<div id="divfilter2"></div>
+			<div id="divfilter3"></div>
+			<div id="divfilter4"></div>
+			<div id="divfilter5"></div>
+			<div id="divfilter6"></div>
+		</div>
+		
+		<div id="tblData"></div>
+
+	</div>
+
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+	</body>
+	<!--Load the AJAX API-->
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="../js/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="../js/app.js"></script>
+	<script type="text/javascript" src="../js/Report10.js"></script>
+	<script type="text/javascript">
+		// Load the Visualization API and the piechart package.
+		google.load('visualization', '1.1', { packages: ['controls', 'gauge'] });
+		// Set a callback to run when the Google Visualization API is loaded.
+		google.setOnLoadCallback(drawReport10Visualization);
+		
+	</script>
+</html>
+

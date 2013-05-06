@@ -1,0 +1,51 @@
+.goog-menu
+{
+    background: #edf5f1;
+    border-top-color: #CCC;
+    border-right-color: #CCC;
+    border-bottom-color: #CCC;
+    border-left-color: #CCC;
+    border-style: solid;
+    border-width: 1px;
+    cursor: default;
+    font-family: 'Signika Negative' , sans-serif;
+}
+
+.goog-menu-button-caption
+{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: 'Signika Negative' , sans-serif;
+}
+
+.goog-menuitem
+{
+    background-color: #edf5f1;
+    text-align: left;
+    border-style: none;
+    padding: 4px 5px 4px 25px;
+    font-family: 'Signika Negative' , sans-serif;
+}
+
+/*Dropdown item font*/
+.goog-menuitem .goog-menuitem-content
+{
+    color: #455259;
+    font-size: 12px;
+    font-family: 'Signika Negative' , sans-serif;
+}
+
+.goog-menuitem:hover
+{
+    background-color: #4b9ab5;
+}
+
+.goog-option-selected
+{
+    background-color: #4b9ab5;
+}
+.goog-menuitem-highlight
+{
+    background-color: #4b9ab5;
+}
